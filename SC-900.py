@@ -1,97 +1,38 @@
-# Projet réalisé par Choupe Stephane 
-# Date de création : Mercredi 12 Juin 2024
-# Code original par : Renaud Marchal 
-
-
-import tkinter as tk
-from tkinter import messagebox
+import sys
 import json
 import random
+from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QCheckBox, QRadioButton, QPushButton, QMessageBox, QButtonGroup, QHBoxLayout, QScrollArea
+from PyQt6.QtCore import Qt
 
-# Lire les questions depuis le fichier
-def lire_questions(fichier):
-    with open(fichier, 'r', encoding='utf-8') as f:
-        return json.load(f)
+class Application(QMainWindow):
+    def __init__(self, fichier_questions):
+        super().__init__()
+        self.setWindowTitle("Simulation d'examen SC-900")
 
-# Fonction pour montrer la question suivante
-def afficher_question():
-    global index_question, score, questions, var_reponse
-    
-    if index_question >= len(questions):
-        messagebox.showinfo("Résultat", f"Votre score est de {score}/{len(questions)}")
-        root.quit()
-        return
+        self.questions_origine = self.lire_questions(fichier_questions)
+        self.questions = []
+        self.index_question = 0
+        self.score = 0
 
-    question = questions[index_question]
-    label_question.config(text=question['texte'])
-    
-    for widget in frame_reponses.winfo_children():
-        widget.destroy()
+        self.init_ui()
 
-    if question['type'] == 'choix_multiple':
-        var_reponse = [tk.IntVar() for _ in question['options']]
-        for i, option in enumerate(question['options']):
-            tk.Checkbutton(frame_reponses, text=option, variable=var_reponse[i]).pack(anchor='w')
-    elif question['type'] == 'vrai_faux':
-        var_reponse = tk.IntVar()
-        tk.Radiobutton(frame_reponses, text="Oui", variable=var_reponse, value=1).pack(anchor='w')
-        tk.Radiobutton(frame_reponses, text="Non", variable=var_reponse, value=2).pack(anchor='w')
-    
-    bouton_suivant.pack(pady=10)  # Afficher le bouton "Suivant"
+    def lire_questions(self, fichier):
+        try:
+            with open(fichier, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            QMessageBox.critical(self, "Erreur", f"Erreur de chargement des questions : {e}")
+            sys.exit(1)
 
-# Vérifier la réponse
-def verifier_reponse():
-    global index_question, score
-    
-    question = questions[index_question]
-
-    if question['type'] == 'choix_multiple':
-        reponses_utilisateur = [question['options'][i] for i, var in enumerate(var_reponse) if var.get() == 1]
-        if reponses_utilisateur and set(reponses_utilisateur) == set(question['reponse_correcte']):
-            score += 1
-    elif question['type'] == 'vrai_faux':
-        reponse_utilisateur = var_reponse.get()
-        if reponse_utilisateur in [1, 2] and reponse_utilisateur == question['reponse_correcte']:
-            score += 1
-    
-    index_question += 1
-    afficher_question()
-
-
-# Fonction de lancement pour la simulation d'examen
-def lancer_simulation():
-    global questions, index_question, score, var_reponse
-    
-    questions = random.sample(questions_origine, 40)
-    index_question = 0
-    score = 0
-    
-    bouton_lancer.pack_forget()  # Cacher le bouton "Simulation d'examen"
-    bouton_etude.pack_forget()   # Cacher le bouton "Hardcore mode"
-    bouton_quitter.pack_forget() # Cacher le bouton "Quitter"
-    afficher_question()
-
-# Fonction de lancement pour le mode hardcore
-def lancer_etude():
-    global questions, index_question, score, var_reponse
-    
-    questions = questions_origine
-    index_question = 0
-    score = 0
-    
-    bouton_lancer.pack_forget()  # Cacher le bouton "Simulation d'examen"
-    bouton_etude.pack_forget()   # Cacher le bouton "Hardcore mode"
-    bouton_quitter.pack_forget() # Cacher le bouton "Quitter"
-    afficher_question()
-
-# Fonction pour quitter l'application
-def quitter():
-    root.quit()
-
-# Fonction pour afficher l'ASCII art
-def afficher_ascii_sc900():
-    # Définir l'art ASCII
-    ascii_art = """
+    def init_ui(self):
+        self.central_widget = QWidget()
+        self.setCentralWidget(self.central_widget)
+        
+        self.layout = QVBoxLayout(self.central_widget)
+        
+        # ASCII Art
+        self.label_ascii = QLabel(self.central_widget)
+        self.label_ascii.setText("""
    ___         _   _  __ _         _   _            ___  ___    ___  __   __  
   / __|___ _ _| |_(_)/ _(_)__ __ _| |_(_)___ _ _   / __|/ __|__/ _ \/  \ /  \ 
  | (__/ -_) '_|  _| |  _| / _/ _` |  _| / _ \ ' \  \__ \ (_|___\_, / () | () |
@@ -118,53 +59,123 @@ def afficher_ascii_sc900():
                  \   --<
                   `.`.<
                     `-'
-"""
-    # Créer un widget Label pour afficher l'art ASCII
-    label_ascii = tk.Label(root, text=ascii_art, font=("Courier", 10), justify="left")
-    label_ascii.pack(padx=10, pady=10)
+""")
+        self.label_ascii.setStyleSheet("font-family: Courier; text-align: center;")
+        self.layout.addWidget(self.label_ascii)
 
+        # Question
+        self.label_question = QLabel(self.central_widget)
+        self.label_question.setWordWrap(True)
+        self.layout.addWidget(self.label_question)
+        
+        # Scroll area for responses
+        self.scroll_area = QScrollArea(self.central_widget)
+        self.scroll_area.setWidgetResizable(True)
+        self.frame_reponses = QWidget()
+        self.frame_reponses_layout = QVBoxLayout(self.frame_reponses)
+        self.scroll_area.setWidget(self.frame_reponses)
+        self.layout.addWidget(self.scroll_area)
 
-# Lire les questions depuis le fichier
-questions_origine = lire_questions("../SC-900-Questions.txt")
+        # Buttons
+        self.button_layout = QHBoxLayout()
+        self.layout.addLayout(self.button_layout)
+        
+        self.bouton_suivant = QPushButton("Suivant", self.central_widget)
+        self.bouton_suivant.clicked.connect(self.verifier_reponse)
+        self.button_layout.addWidget(self.bouton_suivant)
+        self.bouton_suivant.hide()  # Hide "Suivant" by default
+        
+        self.bouton_lancer = QPushButton("Simulation d'examen", self.central_widget)
+        self.bouton_lancer.clicked.connect(self.lancer_simulation)
+        self.layout.addWidget(self.bouton_lancer)
+        
+        self.bouton_etude = QPushButton("Hardcore mode", self.central_widget)
+        self.bouton_etude.clicked.connect(self.lancer_etude)
+        self.layout.addWidget(self.bouton_etude)
+        
+        self.bouton_quitter = QPushButton("Quitter", self.central_widget)
+        self.bouton_quitter.clicked.connect(self.quitter)
+        self.layout.addWidget(self.bouton_quitter)
 
-# Configurer la fenêtre principale
-root = tk.Tk()
-root.title("Simulation d'examen SC-900")
+    def afficher_question(self):
+        if self.index_question >= len(self.questions):
+            QMessageBox.information(self, "Résultat", f"Votre score est de {self.score}/{len(self.questions)}")
+            self.quitter()
+            return
+        
+        question = self.questions[self.index_question]
+        self.label_question.setText(question['texte'])
+        
+        for i in reversed(range(self.frame_reponses_layout.count())): 
+            widget = self.frame_reponses_layout.itemAt(i).widget()
+            if widget:
+                widget.deleteLater()
 
-# Afficher l'ASCII art
-label_ascii = tk.Label(root, text="", font=("Courier", 8), justify="center")
-label_ascii.pack(pady=10)
+        if question['type'] == 'choix_multiple':
+            self.var_reponse = []
+            for option in question['options']:
+                checkbox = QCheckBox(option, self.frame_reponses)
+                self.var_reponse.append(checkbox)
+                self.frame_reponses_layout.addWidget(checkbox)
+        elif question['type'] == 'vrai_faux':
+            self.var_reponse = QButtonGroup(self.frame_reponses)
+            rb_oui = QRadioButton("Oui", self.frame_reponses)
+            rb_non = QRadioButton("Non", self.frame_reponses)
+            self.var_reponse.addButton(rb_oui, 1)
+            self.var_reponse.addButton(rb_non, 2)
+            self.frame_reponses_layout.addWidget(rb_oui)
+            self.frame_reponses_layout.addWidget(rb_non)
 
-# Appel de la fonction pour afficher l'ASCII art
-afficher_ascii_sc900()
+    def verifier_reponse(self):
+        question = self.questions[self.index_question]
+        reponse_donnee = False
 
-label_question = tk.Label(root, text="", wraplength=600, justify="left")
-label_question.pack(pady=20)
+        if question['type'] == 'choix_multiple':
+            reponses_utilisateur = [option.text() for option in self.var_reponse if option.isChecked()]
+            reponse_donnee = bool(reponses_utilisateur)  # Check if any checkbox is selected
+            correct = set(reponses_utilisateur) == set(question['reponse_correcte'])
+        elif question['type'] == 'vrai_faux':
+            reponse_utilisateur = self.var_reponse.checkedId()
+            reponse_donnee = reponse_utilisateur != -1  # Check if a radio button is selected
+            correct = reponse_utilisateur == question['reponse_correcte']
 
-frame_reponses = tk.Frame(root)
-frame_reponses.pack(pady=10)
+        if not reponse_donnee:
+            QMessageBox.warning(self, "Avertissement", "Veuillez sélectionner une réponse avant de continuer.")
+            return
+        
+        if correct:
+            self.score += 1
 
-# Cadre pour le score
-frame_score = tk.Frame(root)
-frame_score.pack(pady=10)
+        self.index_question += 1
+        self.afficher_question()
 
-index_question = 0
-score = 0
-questions = []
+    def lancer_simulation(self):
+        self.questions = random.sample(self.questions_origine, min(40, len(self.questions_origine)))
+        self.index_question = 0
+        self.score = 0
 
-# Bouton pour passer à la question suivante
-bouton_suivant = tk.Button(root, text="Suivant", command=verifier_reponse)
+        self.bouton_lancer.hide()
+        self.bouton_etude.hide()
+        self.bouton_quitter.hide()
+        self.bouton_suivant.show()
+        self.afficher_question()
 
-# Boutons pour lancer les différents modes
-bouton_lancer = tk.Button(root, text="Simulation d'examen", command=lancer_simulation)
-bouton_lancer.pack(pady=20)
+    def lancer_etude(self):
+        self.questions = self.questions_origine
+        self.index_question = 0
+        self.score = 0
 
-bouton_etude = tk.Button(root, text="Hardcore mode", command=lancer_etude)
-bouton_etude.pack(pady=20)
+        self.bouton_lancer.hide()
+        self.bouton_etude.hide()
+        self.bouton_quitter.hide()
+        self.bouton_suivant.show()
+        self.afficher_question()
 
-# Bouton pour quitter
-bouton_quitter = tk.Button(root, text="Quitter", command=quitter)
-bouton_quitter.pack(pady=20)
+    def quitter(self):
+        self.close()
 
-# Lancer la boucle principale
-root.mainloop()
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = Application("../SC-900-Questions.txt")
+    window.show()
+    sys.exit(app.exec())

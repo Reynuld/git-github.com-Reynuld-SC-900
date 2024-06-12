@@ -154,6 +154,9 @@ pypandoc==1.13
 pyparsing==2.4.7
 PyQt5==5.15.6
 PyQt5-sip==12.9.1
+PyQt6==6.7.0
+PyQt6-Qt6==6.7.1
+PyQt6-sip==13.6.0
 pyqtgraph==0.12.4
 pyRFC3339==1.1
 pyrsistent==0.18.1
