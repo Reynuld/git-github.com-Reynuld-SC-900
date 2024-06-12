@@ -2,7 +2,6 @@ import sys
 import json
 import random
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QCheckBox, QRadioButton, QPushButton, QMessageBox, QButtonGroup, QHBoxLayout, QScrollArea
-from PyQt6.QtCore import Qt
 
 class Application(QMainWindow):
     def __init__(self, fichier_questions):
