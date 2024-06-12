@@ -90,6 +90,7 @@ def quitter():
 
 # Fonction pour afficher l'ASCII art
 def afficher_ascii_sc900():
+    # Définir l'art ASCII
     ascii_art = """
    ___         _   _  __ _         _   _            ___  ___    ___  __   __  
   / __|___ _ _| |_(_)/ _(_)__ __ _| |_(_)___ _ _   / __|/ __|__/ _ \/  \ /  \ 
@@ -118,7 +119,10 @@ def afficher_ascii_sc900():
                   `.`.<
                     `-'
 """
-    label_ascii.config(text=ascii_art)
+    # Créer un widget Label pour afficher l'art ASCII
+    label_ascii = tk.Label(root, text=ascii_art, font=("Courier", 10), justify="left")
+    label_ascii.pack(padx=10, pady=10)
+
 
 # Lire les questions depuis le fichier
 questions_origine = lire_questions("../SC-900-Questions.txt")
