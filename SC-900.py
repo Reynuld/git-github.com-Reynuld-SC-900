@@ -2,6 +2,8 @@ import sys
 import json
 import random
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLabel, QCheckBox, QRadioButton, QPushButton, QMessageBox, QButtonGroup, QHBoxLayout, QScrollArea
+from PyQt6.QtGui import QIcon
+
 
 class Application(QMainWindow):
     def __init__(self, fichier_questions):
@@ -175,6 +177,7 @@ class Application(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon("../image_logo.jpeg"))  # Remplacez le chemin par le chemin réel de votre image
     window = Application("../SC-900-Questions.txt")
     window.show()
     sys.exit(app.exec())
