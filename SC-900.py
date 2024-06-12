@@ -121,7 +121,7 @@ def afficher_ascii_sc900():
     label_ascii.config(text=ascii_art)
 
 # Lire les questions depuis le fichier
-questions_origine = lire_questions("SC-900-Questions.txt")
+questions_origine = lire_questions("../SC-900-Questions.txt")
 
 # Configurer la fenêtre principale
 root = tk.Tk()
