@@ -26,13 +26,6 @@ Ce programme permet de passer une simulation d'examen en répondant à une séri
 3. Répondez aux questions affichées.
 4. Visualisez votre score final à la fin de la simulation.
 
-## Contenu du projet
-- `SC-900.py` : Le code source de l'application.
-- `SC-900-Questions.txt` : Le fichier JSON contenant les questions et les réponses.
-
 ## Prérequis
 - Python 3
 - tkinter (généralement inclus dans les distributions Python)
-
-## Licence
-Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE).
