@@ -15,7 +15,7 @@
             "Oui",
             "Non"
         ],
-        "reponse_correcte": true
+        "reponse_correcte": true 
     },
     {
         "texte": "Vous devez déployer des machines virtuelles Azure pour héberger un locataire Azure Active Directory (Azure AD).",
@@ -32,10 +32,10 @@
         "options": [
             "Azure Blueprints",
             "Azure Policy",
-            "The Microsoft CloudAdoption Framework for Azure",
+            "The Microsoft Cloud Adoption Framework for Azure",
             "A resource lock"
         ],
-        "reponse_correcte": "The Microsoft CloudAdoption Framework for Azure"
+        "reponse_correcte": "The Microsoft Cloud Adoption Framework for Azure"
     },
     {
         "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ est utilisé pour identifier, conserver et exporter des informations électroniques qui pourraient être utilisées dans une enquête.",
@@ -66,7 +66,7 @@
             "Authentification multi-facteurs (MFA)",
             "Une relation de confiance (A trust relationship)",
             "La synchronisation des comptes utilisateurs",
-            "Une connexion vpn"
+            "Une connexion VPN"
         ],
         "reponse_correcte": "Une relation de confiance (A trust relationship)"
     },
@@ -131,7 +131,7 @@
         "reponse_correcte": "Portail Microsoft Service Trust"
     },
     {
-        "texte": "Dans le modèle de responsabilité partagée pour un déploiement Azure, de quoi Microsoft est-il seul responsable de la gestion ? ",
+        "texte": "Dans le modèle de responsabilité partagée pour un déploiement Azure, de quoi Microsoft est-il seul responsable de la gestion ?",
         "type": "choix_multiple",
         "options": [
             "la gestion des appareils mobiles",
@@ -197,7 +197,7 @@
         ],
         "reponse_correcte": "Chiffrer"
     },
-    {
+     {
         "texte": "Signer numériquement un document nécessite une clé privée.",
         "type": "vrai_faux",
         "options": [
@@ -216,22 +216,13 @@
         "reponse_correcte": true
     },
     {
-        "texte": "Vérifier l'authenticité d'un document signé numériquement nécessite la clé privée du signataire.",
-        "type": "vrai_faux",
-        "options": [
-            "Oui",
-            "Non"
-        ],
-        "reponse_correcte": false
-    },
-    {
         "texte": "Sélectionnez la réponse qui complète correctement la phrase. Lorsque les utilisateurs se connectent au portail Azure, ils sont d'abord ____.",
         "type": "choix_multiple",
         "options": [
             "authentifiés",
             "assignés à des permissions",
-            "autorisé",
-            "résolu"
+            "autorisés",
+            "résolus"
         ],
         "reponse_correcte": "authentifiés"
     },
@@ -241,7 +232,7 @@
         "options": [
             "L'autorisation",
             "L'authentification",
-            "la fédération",
+            "La fédération",
             "L'authentification unique (SSO)"
         ],
         "reponse_correcte": "L'autorisation"
@@ -308,16 +299,7 @@
         "reponse_correcte": true
     },
     {
-        "texte": "L'identité hybride nécessite la mise en œuvre de deux locataires Microsoft 365.",
-        "type": "vrai_faux",
-        "options": [
-            "Oui",
-            "Non"
-        ],
-        "reponse_correcte": false
-    },
-    {
-        "texte": "L'authentification des identités hybrides nécessite la synchronisation de Active Directory Domain Services (AD DS) et Azure Active Directory (Azure AD)",
+        "texte": "L'authentification des identités hybrides nécessite la synchronisation de Active Directory Domain Services (AD DS) et Azure Active Directory (Azure AD).",
         "type": "vrai_faux",
         "options": [
             "Oui",
@@ -358,7 +340,7 @@
             "Utilisez le réseau comme la principale frontière de sécurité."
         ],
         "reponse_correcte": [
-            "Utilisez le réseau comme la principale frontière de sécurité.",
+            "Utilisez l'identité comme la principale frontière de sécurité.",
             "Toujours vérifier explicitement les permissions d'un utilisateur.",
             "Toujours supposer que le système de l'utilisateur peut être violé."
         ]
@@ -379,7 +361,7 @@
         "reponse_correcte": "Security Center"
     },
     {
-        "texte": "Associez les sous-catégories d'actions de score de conformité aux actions appropriées. Chiffrer les données au repos ",
+        "texte": "Associez les sous-catégories d'actions de score de conformité aux actions appropriées. Chiffrer les données au repos",
         "type": "choix_multiple",
         "options": [
             "Corrective",
@@ -458,17 +440,6 @@
         "reponse_correcte": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
     },
     {
-        "texte": "Dans un modèle d'identité hybride, que pouvez-vous utiliser pour synchroniser les identités entre Active Directory Domain Services (AD DS) et Azure Active Directory (Azure AD) ?",
-        "type": "choix_multiple",
-        "options": [
-            " Services de fédération Active Directory (AD FS)",
-            "Microsoft Sentinel",
-            "Azure AD Connect",
-            "Gestion des identités privilégiées (PIM) Azure AD"
-        ],
-        "reponse_correcte": "Azure AD Connect"
-    },
-    {
         "texte": "Azure Active Directory (Azure AD) est déployé vers et dans un environnement local",
         "type": "vrai_faux",
         "options": [
@@ -496,26 +467,15 @@
         "reponse_correcte": true
     },
     {
-        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Avec Windows Hello for Business, les données biométriques d'un utilisateur utilisées pour l'authentification ____",
+        "texte": "Qu'est-ce que vous pouvez utiliser pour donner à un utilisateur une fenêtre de deux heures pour accomplir une tâche administrative dans Azure ?",
         "type": "choix_multiple",
         "options": [
-            "est stocké sur un dispositif externe",
-            "est stocké uniquement sur un dispositif local",
-            "est stocké dans Azure Active Directory (Azure AD)",
-            "est répliqué sur tous les dispositifs désignés par l'utilisateur"
+            "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)",
+            "Azure Multi-Factor Authentication (MFA)",
+            "Azure Active Directory (Azure AD) Identity Protection",
+            "Politiques d'accès conditionnel"
         ],
-        "reponse_correcte": "est stocké uniquement sur un dispositif local"
-    },
-    {
-        "texte": "Quel est l'objectif de Azure Active Directory Password Protection ?",
-        "type": "choix_multiple",
-        "options": [
-            "pour contrôler la fréquence à laquelle les utilisateurs doivent changer leurs mots de passe",
-            "pour identifier les appareils sur lesquels les utilisateurs peuvent se connecter sans utiliser l'authentification multi-factorielle (MFA)",
-            "pour crypter un mot de passe en utilisant des normes de cryptage reconnues mondialement",
-            "pour empêcher les utilisateurs d'utiliser des mots spécifiques dans leurs mots de passe"
-        ],
-        "reponse_correcte": "pour empêcher les utilisateurs d'utiliser des mots spécifiques dans leurs mots de passe"
+        "reponse_correcte": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
     },
     {
         "texte": "Quelle fonctionnalité de Azure Active Directory (Azure AD) pouvez-vous utiliser pour évaluer l'appartenance à un groupe et supprimer automatiquement les utilisateurs qui n'ont plus besoin d'être membres d'un groupe ?",
@@ -766,7 +726,7 @@
         "reponse_correcte": true
     },
     {
-        "texte": "Lorsque les paramètres de sécurité par défaut sont activés pour un locataire Azure Active Directory (Azure AD), quelles sont les deux exigences appliquées ? Chaque bonne réponse présente une solution complète.",
+        "texte": "Lorsque les paramètres de sécurité par défaut sont activés pour un locataire Azure Active Directory (Azure AD), quelles sont les deux exigences appliquées ?",
         "type": "choix_multiple",
         "options": [
             "Tous les utilisateurs doivent s'authentifier depuis un appareil enregistré.",
@@ -1110,7 +1070,10 @@
     {
         "texte": "Microsoft Defender for Endpoint peut protéger les sites en ligne Microsoft SharePoint et les virus de contenu",
         "type": "vrai_faux",
-        "options": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
         "reponse_correcte": false
     },
     {
@@ -1171,7 +1134,7 @@
             "Oui",
             "Non"
         ],
-        "reponse_correcte": false
+        "reponse_correcte":false
     },
     {
         "texte": "Quelle fonctionnalité Azure Active Directory (Azure AD) pouvez-vous utiliser pour empêcher les appareils gérés par Microsoft Intune d'accéder aux ressources de l'entreprise ?",
