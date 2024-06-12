@@ -1,0 +1,1334 @@
+[
+    {
+        "texte": "Toutes les éditions de licences Azure Active Directory (Azure AD) incluent les mêmes fonctionnalités.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Vous pouvez gérer un locataire Azure Active Directory (Azure AD) en utilisant le portail Azure.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Vous devez déployer des machines virtuelles Azure pour héberger un locataire Azure Active Directory (Azure AD).",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ fournit les meilleures pratiques des employés, partenaires et clients de Microsoft, y compris des outils et des conseils pour aider dans un déploiement Azure.",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Blueprints",
+            "Azure Policy",
+            "The Microsoft CloudAdoption Framework for Azure",
+            "A resource lock"
+        ],
+        "reponse_correcte": "The Microsoft CloudAdoption Framework for Azure"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ est utilisé pour identifier, conserver et exporter des informations électroniques qui pourraient être utilisées dans une enquête.",
+        "type": "choix_multiple",
+        "options": [
+            "Customer Lockbox",
+            "Data loss prevention (DLP)",
+            "eDiscovery",
+            "A resource lock"
+        ],
+        "reponse_correcte": "eDiscovery"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Vous pouvez gérer Microsoft Intune en utilisant le ____.",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Active Directory admin center",
+            "Microsoft 365 compliance center",
+            "Microsoft 365 Defender portal",
+            "Microsoft Endpoint Manager admin center"
+        ],
+        "reponse_correcte": "Microsoft Endpoint Manager admin center"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. La fédération est utilisée pour établir ___ entre les organisations.",
+        "type": "choix_multiple",
+        "options": [
+            "Authentification multi-facteurs (MFA)",
+            "Une relation de confiance (A trust relationship)",
+            "La synchronisation des comptes utilisateurs",
+            "Une connexion vpn"
+        ],
+        "reponse_correcte": "Une relation de confiance (A trust relationship)"
+    },
+    {
+        "texte": "Appliquer des mises à jour système augmente le score de sécurité d'une organisation dans Microsoft Defender pour le cloud.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Le score de sécurité dans Microsoft Defender pour le cloud peut évaluer les ressources à travers plusieurs abonnements Azure.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Activer l'authentification multi-facteurs (MFA) augmente le score de sécurité d'une organisation dans Microsoft Defender pour le Cloud.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Quel score mesure les progrès d'une organisation dans l'accomplissement d'actions qui aident à réduire les risques associés à la protection des données et aux normes réglementaires ?",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Secure Score",
+            "Productivity Score",
+            "Secure score in Azure Security Center",
+            "Compliance score"
+        ],
+        "reponse_correcte": "Compliance score"
+    },
+    {
+        "texte": "Qu'utilisez-vous pour fournir une intégration en temps réel entre Azure Sentinel et une autre source de sécurité ?",
+        "type": "choix_multiple",
+        "options": [
+            "Azure AD Connect",
+            "Un espace de travail Log Analytics.",
+            "Azure Information Protection",
+            "Un connecteur"
+        ],
+        "reponse_correcte": "Un connecteur"
+    },
+    {
+        "texte": "Quel portail Microsoft fournit des informations sur la manière dont les services cloud de Microsoft se conforment aux normes réglementaires, telles que l'Organisation internationale de normalisation (ISO) ?",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Endpoint Manager admin center",
+            "Azure Cost Management + Billing",
+            "Portail Microsoft Service Trust",
+            "Centre d'administration Azure Active Directory"
+        ],
+        "reponse_correcte": "Portail Microsoft Service Trust"
+    },
+    {
+        "texte": "Dans le modèle de responsabilité partagée pour un déploiement Azure, de quoi Microsoft est-il seul responsable de la gestion ? ",
+        "type": "choix_multiple",
+        "options": [
+            "la gestion des appareils mobiles",
+            "les autorisations pour les données utilisateur stockées dans Azure",
+            "la création et la gestion des comptes utilisateur",
+            "la gestion du matériel physique"
+        ],
+        "reponse_correcte": "la gestion du matériel physique"
+    },
+    {
+        "texte": "« Présumer une violation » est l'un des principes directeurs du modèle Zero Trust.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Le modèle de sécurité Zero Trust suppose qu'un pare-feu sécurise le réseau interne contre les menaces externes.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Le contrôle est un principe clé de confidentialité chez Microsoft.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "La transparence est un principe clé de confidentialité chez Microsoft.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "La responsabilité partagée est un principe clé de confidentialité chez Microsoft.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ un fichier rend les données du fichier lisibles et utilisables par les spectateurs qui possèdent la clé appropriée.",
+        "type": "choix_multiple",
+        "options": [
+            "Chiffrer",
+            "Archiver",
+            "Compresser",
+            "Dédupliquer"
+        ],
+        "reponse_correcte": "Chiffrer"
+    },
+    {
+        "texte": "Signer numériquement un document nécessite une clé privée.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Vérifier l'authenticité d'un document signé numériquement nécessite la clé publique du signataire.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Vérifier l'authenticité d'un document signé numériquement nécessite la clé privée du signataire.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Lorsque les utilisateurs se connectent au portail Azure, ils sont d'abord ____.",
+        "type": "choix_multiple",
+        "options": [
+            "authentifiés",
+            "assignés à des permissions",
+            "autorisé",
+            "résolu"
+        ],
+        "reponse_correcte": "authentifiés"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ est le processus d'identification permettant de déterminer si un utilisateur connecté peut accéder à une ressource spécifique.",
+        "type": "choix_multiple",
+        "options": [
+            "L'autorisation",
+            "L'authentification",
+            "la fédération",
+            "L'authentification unique (SSO)"
+        ],
+        "reponse_correcte": "L'autorisation"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ permettent la collaboration avec des partenaires commerciaux d'organisations externes telles que des fournisseurs, des partenaires et des vendeurs. Les utilisateurs externes apparaissent comme des utilisateurs invités dans l'annuaire.",
+        "type": "choix_multiple",
+        "options": [
+            "Active Directory (Azure AD) inter-entreprise (B2B)",
+            "Services de domaine Active Directory (AD DS)",
+            "Azure Active Directory pour le commerce électronique B2C (Azure AD B2C)"
+        ],
+        "reponse_correcte": "Active Directory (Azure AD) inter-entreprise (B2B)"
+    },
+    {
+        "texte": "Quelles sont les deux phases abordées avant la phase Ready dans le Microsoft Cloud Adoption Framework for Azure ? - Chaque réponse correcte présente une solution complète. (Notez que chaque solution vaut 1 point.)",
+        "type": "choix_multiple",
+        "options": [
+            "Plan",
+            "Manage",
+            "Adopter",
+            "Gouverner",
+            "Définir une stratégie"
+        ],
+        "reponse_correcte": [
+            "Plan",
+            "Définir une stratégie"
+        ]
+    },
+    {
+        "texte": "Dans le logiciel en tant que service (SaaS), l'application des packs de service aux applications est la responsabilité de l'organisation.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Dans l'infrastructure en tant que services (IaaS), la gestion du réseau physique est la responsabilité du fournisseur de cloud.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Dans tous les types de déploiement de cloud Azure, la gestion de la sécurité des informations et des données est la responsabilité de l'organisation.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Azure AD Connect peut être utilisé pour mettre en œuvre l'identité hybride",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "L'identité hybride nécessite la mise en œuvre de deux locataires Microsoft 365.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "L'authentification des identités hybrides nécessite la synchronisation de Active Directory Domain Services (AD DS) et Azure Active Directory (Azure AD)",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ____ fournit des recommandations de référence et des conseils pour protéger les services Azure.",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Application Insights",
+            "Azure Network Watcher",
+            "Espaces de travail Log Analytics",
+            "Security baseline pour Azure"
+        ],
+        "reponse_correcte": "Security baseline pour Azure"
+    },
+    {
+        "texte": "Quel est un exemple de chiffrement au repos ?",
+        "type": "choix_multiple",
+        "options": [
+            "chiffrement des communications en utilisant un VPN site-à-site",
+            "Chiffrer un disque de machine virtuelle",
+            "accès à un site web en utilisant une connexion HTTPS chiffrée",
+            "envoi d'un email chiffré"
+        ],
+        "reponse_correcte": "Chiffrer un disque de machine virtuelle"
+    },
+    {
+        "texte": "Quelles sont les trois affirmations qui décrivent précisément les principes directeurs de Zero Trust ? Chaque bonne réponse présente une solution complète. NOTE : Chaque sélection correcte vaut un point.",
+        "type": "choix_multiple",
+        "options": [
+            "Définissez le périmètre par les lieux physiques.",
+            "Utilisez l'identité comme la principale frontière de sécurité.",
+            "Toujours vérifier explicitement les permissions d'un utilisateur.",
+            "Toujours supposer que le système de l'utilisateur peut être violé.",
+            "Utilisez le réseau comme la principale frontière de sécurité."
+        ],
+        "reponse_correcte": [
+            "Utilisez le réseau comme la principale frontière de sécurité.",
+            "Toujours vérifier explicitement les permissions d'un utilisateur.",
+            "Toujours supposer que le système de l'utilisateur peut être violé."
+        ]
+    },
+    {
+        "texte": "Quel service devriez-vous utiliser pour consulter votre score de sécurité Azure? Pour répondre, sélectionnez le service approprié dans la zone de réponse.",
+        "type": "choix_multiple",
+        "options": [
+            "Alertes",
+            "Application Insights",
+            "Abonnements",
+            "Politique",
+            "Azure AD Connect Health",
+            "Security Center",
+            "Advisor",
+            "Monitor"
+        ],
+        "reponse_correcte": "Security Center"
+    },
+    {
+        "texte": "Associez les sous-catégories d'actions de score de conformité aux actions appropriées. Chiffrer les données au repos ",
+        "type": "choix_multiple",
+        "options": [
+            "Corrective",
+            "Détective",
+            "Préventif"
+        ],
+        "reponse_correcte": "Préventif"
+    },
+    {
+        "texte": "Associez les sous-catégories d'actions de score de conformité aux actions appropriées. Effectuer un audit d'accès au système",
+        "type": "choix_multiple",
+        "options": [
+            "Corrective",
+            "Détective",
+            "Préventif"
+        ],
+        "reponse_correcte": "Détective"
+    },
+    {
+        "texte": "Associez les sous-catégories d'actions de score de conformité aux actions appropriées. Effectuer des changements de configuration en réponse à un incident de sécurité.",
+        "type": "choix_multiple",
+        "options": [
+            "Corrective",
+            "Détective",
+            "Préventif"
+        ],
+        "reponse_correcte": "Corrective"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Compliance Manager peut être directement accessible depuis ____.",
+        "type": "choix_multiple",
+        "options": [
+            " Microsoft 365 Defender portal",
+            "Microsoft 365 admin center",
+            "Microsoft 365 Compliance Center",
+            " Microsoft Support portal"
+        ],
+        "reponse_correcte": "Microsoft 365 Compliance Center"
+    },
+    {
+        "texte": "L'activation de l'authentification multi-facteurs (MFA) augmente le Microsoft Secure Score.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Un Microsoft Secure Score plus élevé signifie un niveau de risque identifié plus faible dans le locataire Microsoft 365.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Microsoft Secure Score mesure les progrès dans les actions concurrentes basées sur des contrôles qui incluent des réglementations et des normes clés pour la protection des données et la gouvernance",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Qu'est-ce que vous pouvez utiliser pour donner à un utilisateur une fenêtre de deux heures pour accomplir une tâche administrative dans Azure ?",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)",
+            "Azure Multi-Factor Authentication (MFA)",
+            "Azure Active Directory (Azure AD) Identity Protection",
+            "Politiques d'accès conditionnel"
+        ],
+        "reponse_correcte": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
+    },
+    {
+        "texte": "Dans un modèle d'identité hybride, que pouvez-vous utiliser pour synchroniser les identités entre Active Directory Domain Services (AD DS) et Azure Active Directory (Azure AD) ?",
+        "type": "choix_multiple",
+        "options": [
+            " Services de fédération Active Directory (AD FS)",
+            "Microsoft Sentinel",
+            "Azure AD Connect",
+            "Gestion des identités privilégiées (PIM) Azure AD"
+        ],
+        "reponse_correcte": "Azure AD Connect"
+    },
+    {
+        "texte": "Azure Active Directory (Azure AD) est déployé vers et dans un environnement local",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Azure Active Directory (Azure AD) est fourni dans le cadre d'un abonnement Microsoft 365",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Azure Active Directory (Azure AD) est un service de gestion des identités et des accès",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Avec Windows Hello for Business, les données biométriques d'un utilisateur utilisées pour l'authentification ____",
+        "type": "choix_multiple",
+        "options": [
+            "est stocké sur un dispositif externe",
+            "est stocké uniquement sur un dispositif local",
+            "est stocké dans Azure Active Directory (Azure AD)",
+            "est répliqué sur tous les dispositifs désignés par l'utilisateur"
+        ],
+        "reponse_correcte": "est stocké uniquement sur un dispositif local"
+    },
+    {
+        "texte": "Quel est l'objectif de Azure Active Directory Password Protection ?",
+        "type": "choix_multiple",
+        "options": [
+            "pour contrôler la fréquence à laquelle les utilisateurs doivent changer leurs mots de passe",
+            "pour identifier les appareils sur lesquels les utilisateurs peuvent se connecter sans utiliser l'authentification multi-factorielle (MFA)",
+            "pour crypter un mot de passe en utilisant des normes de cryptage reconnues mondialement",
+            "pour empêcher les utilisateurs d'utiliser des mots spécifiques dans leurs mots de passe"
+        ],
+        "reponse_correcte": "pour empêcher les utilisateurs d'utiliser des mots spécifiques dans leurs mots de passe"
+    },
+    {
+        "texte": "Quelle fonctionnalité de Azure Active Directory (Azure AD) pouvez-vous utiliser pour évaluer l'appartenance à un groupe et supprimer automatiquement les utilisateurs qui n'ont plus besoin d'être membres d'un groupe ?",
+        "type": "choix_multiple",
+        "options": [
+            "revues d'accès",
+            "identités gérées",
+            "politiques d'accès conditionnel",
+            "Azure AD Identity Protection"
+        ],
+        "reponse_correcte": "revues d'accès"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ____ nécessite une vérification supplémentaire, comme un code de vérification envoyé à un téléphone mobile",
+        "type": "choix_multiple",
+        "options": [
+            "Multi-factor authentification (MFA)",
+            "Pass-through authentification",
+            "Password Writeback",
+            "Single sign-on (SSO)"
+        ],
+        "reponse_correcte": "Multi-factor authentification (MFA)"
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel peuvent utiliser l'état de l'appareil comme signal.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel s'appliquent avant que l'authentification à premier facteur ne soit terminée",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel peuvent déclencher l'authentification multi-facteur (MFA) si un utilisateur tente d'accéder à une application spécifique.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. _est une solution basée sur le cloud qui exploite les signaux de l'annuaire Active Directory sur site pour identifier, détecter et enquêter sur les menaces avancées.",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Defender for Cloud Apps",
+            "Microsoft Defender for Endpoint",
+            "Microsoft Defender for Identify",
+            "Microsoft Defender for Office 365"
+        ],
+        "reponse_correcte": "Microsoft Defender for Identity"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Microsoft Defender for Identity peut identifier les menaces avancées à partir des signaux de ___",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Active DIrectory (Azure AD)",
+            "Azure AD Connect",
+            "Services de Domaine Active Directory (AD DS) sur site"
+        ],
+        "reponse_correcte": "Services de Domaine Active Directory (AD DS) sur site"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Azure Active Directory (Azure AD) est ____ utilisé pour l'authentification et l'autorisation.",
+        "type": "choix_multiple",
+        "options": [
+            "Un système de détection et de réponse étendu (XDR)",
+            "Un fournisseur d'identité",
+            "Un groupe de gestion",
+            "Un système de gestion des informations et des événements de sécurité (SIEM)"
+        ],
+        "reponse_correcte": "Un fournisseur d'identité"
+    },
+    {
+        "texte": "Quelle fonctionnalité Azure Active Directory (Azure AD) pouvez-vous utiliser pour fournir un accès juste à temps (JIT) pour gérer les ressources Azure ?",
+        "type": "choix_multiple",
+        "options": [
+            "Les politiques d'accès conditionnel",
+            "Azure AD Identity Protection",
+            "Azure AD Privileged Identity Management (PIM)",
+            "Les politiques de méthodes d'authentification"
+        ],
+        "reponse_correcte": "Azure AD Privileged Identity Management (PIM)"
+    },
+    {
+        "texte": "Quelles sont les trois méthodes d'authentification qui peuvent être utilisées par Azure Multi-Factor Authentication (MFA) ? Chaque bonne réponse présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "SMS",
+            "Microsoft Authenticator app",
+            "email verification",
+            "Appel téléphonique",
+            "Question de sécurité"
+        ],
+        "reponse_correcte": [
+            "SMS",
+            "Microsoft Authenticator app",
+            "Appel téléphonique"
+        ]
+    },
+    {
+        "texte": "Quelle fonctionnalité de Microsoft 365 pouvez-vous utiliser pour restreindre la communication et le partage d'informations entre les membres de deux services de votre organisation ?",
+        "type": "choix_multiple",
+        "options": [
+            "Les politiques d'étiquetage de sensibilité",
+            "Customer Lockbox",
+            "information barriers",
+            "Privileged Access Management (PAM)"
+        ],
+        "reponse_correcte": "information barriers"
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel imposent toujours l'utilisation de l'authentification multi-facteurs (MFA).",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel peuvent être utilisées pour bloquer l'accès à une application en fonction de l'emplacement de l'utilisateur.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel n'affectent que les utilisateurs ayant des appareils joints à Azure Active Directory (Azure AD).",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel peuvent être appliquées aux administrateurs globaux.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel sont évaluées avant qu'un utilisateur ne soit authentifié.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel peuvent utiliser une plateforme de périphérique, telle qu'Android ou iOS, comme signal.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Les applications enregistrées dans Azure Active Directory (Azure AD) sont automatiquement associées à un ___ ",
+        "type": "choix_multiple",
+        "options": [
+            "compte invité",
+            "identité gérée",
+            "principal de service",
+            "compte utilisateur"
+        ],
+        "reponse_correcte": "principal de service"
+    },
+    {
+        "texte": "Quelles sont les trois méthodes d’authentification prises en charge par Windows Hello Entreprise ? Chaque bonne réponse présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "empreinte digitale",
+            "reconnaissance faciale",
+            "PIN",
+            "email verification",
+            "question de sécurité"
+        ],
+        "reponse_correcte": [
+            "empreinte digitale",
+            "reconnaissance faciale",
+            "PIN"
+        ]
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase.  Lorsque vous activez les paramètres de sécurité par défaut dans Azure Active Directory (Azure AD), ___ sera activé pour tous les utilisateurs Azure AD.",
+        "type": "choix_multiple",
+        "options": [
+            "Azure AD Identity Protection",
+            "Azure AD Privileged Identity Management (PIM)",
+            "Multi-factor authentification (MFA)"
+        ],
+        "reponse_correcte": "Multi-factor authentification (MFA)"
+    },
+    {
+        "texte": "Vous disposez d'un abonnement Azure. - Vous devez mettre en œuvre une activation de rôle basée sur l'approbation et limitée dans le temps. - Que faut-il utiliser ?",
+        "type": "choix_multiple",
+        "options": [
+            "Windows Hello for Business",
+            "Azure Active Directory (Azure AD) Identity Protection",
+            "access reviews in Azure Active Directory (Azure AD)",
+            "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
+        ],
+        "reponse_correcte": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
+    },
+    {
+        "texte": "Les administrateurs globaux sont exemptés des politiques d'accès conditionnel.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Une politique d'accès conditionnel ne peut pas ajouter d'utilisateurs aux rôles Azure Active Directory (Azure AD).",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Les politiques d'accès conditionnel peuvent imposer l'utilisation de l'authentification multi-facteurs (MFA) pour accéder aux applications cloud.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Lorsque les paramètres de sécurité par défaut sont activés pour un locataire Azure Active Directory (Azure AD), quelles sont les deux exigences appliquées ? Chaque bonne réponse présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "Tous les utilisateurs doivent s'authentifier depuis un appareil enregistré.",
+            "Les administrateurs doivent toujours utiliser l'authentification multi-facteurs (MFA) Azure.",
+            "L'inscription à l'authentification multi-facteurs (MFA) Azure est obligatoire pour tous les utilisateurs.",
+            "Tous les utilisateurs doivent s'authentifier en utilisant une connexion sans mot de passe.",
+            "Tous les utilisateurs doivent s'authentifier en utilisant Windows Hello."
+        ],
+        "reponse_correcte": [
+            "Les administrateurs doivent toujours utiliser l'authentification multi-facteurs (MFA) Azure.",
+            "L'inscription à l'authentification multi-facteurs (MFA) Azure est obligatoire pour tous les utilisateurs."
+        ]
+    },
+    {
+        "texte": "Quel type d'identité est créé lorsque vous enregistrez une application auprès d'Active Directory (Azure AD) ?",
+        "type": "choix_multiple",
+        "options": [
+            "Un compte utilisateur",
+            "une identité gérée attribuée par l'utilisateur",
+            "Une identité gérée attribuée par le système",
+            "Un principal de service"
+        ],
+        "reponse_correcte": "Un principal de service"
+    },
+    {
+        "texte": "Quelles sont les trois tâches qui peuvent être effectuées à l'aide de la protection d'identité Azure Active Directory (Azure AD) ? Chaque bonne réponse présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "Configurer l'accès externe pour les organisations partenaires.",
+            "Exporter la détection des risques vers des utilitaires tiers.",
+            "Automatiser la détection et la correction des risques liés à l'identité.",
+            "Enquêter sur les risques liés à l'authentification des utilisateurs.",
+            "Créer et attribuer automatiquement des étiquettes de sensibilité aux données."
+        ],
+        "reponse_correcte": [
+            "Exporter la détection des risques vers des utilitaires tiers.",
+            "Automatiser la détection et la correction des risques liés à l'identité.",
+            "Enquêter sur les risques liés à l'authentification des utilisateurs."
+        ]
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Lorsque l'on utilise l'authentification multi-facteurs (MFA), un mot de passe est considéré comme quelque chose que tu__",
+        "type": "choix_multiple",
+        "options": [
+            "est",
+            "as",
+            "sais",
+            "partages"
+        ],
+        "reponse_correcte": "sais"
+    },
+    {
+        "texte": "Windows Hello for Business peut utiliser l'application Microsoft Authenticator comme méthode d'authentification.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Windows Hello for Business peut utiliser un code PIN comme méthode d'authentification.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Les informations d'authentification de Windows Hello for Business se synchronisent sur tous les appareils enregistrés par un utilisateur.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Une ressource Azure peut utiliser un(e) ___ attribué par le système pour accéder aux services Azure.",
+        "type": "choix_multiple",
+        "options": [
+            "Appareil rejoint à Azure Active Directory (Azure AD).",
+            "Identité gérée",
+            "Service principal",
+            "Identité utilisateur"
+        ],
+        "reponse_correcte": "Identité gérée"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Tu peux utiliser ___ dans le portail Microsoft 365 Defender pour identifier les appareils affectés par une alerte.",
+        "type": "choix_multiple",
+        "options": [
+            "classifications",
+            "incidents",
+            "politiques",
+            "Secure score"
+        ],
+        "reponse_correcte": "incidents"
+    },
+    {
+        "texte": "Quelles sont les deux fonctionnalités de Microsoft Defender for Endpoint ? Chaque sélection correcte présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "L'enquête et la remédiation automatisées",
+            "Le chiffrement des données en transit",
+            "shadow IT detection",
+            "Réduction de la surface d'attaque"
+        ],
+        "reponse_correcte": [
+            "L'enquête et la remédiation automatisées",
+            "Réduction de la surface d'attaque"
+        ]
+    },
+    {
+        "texte": "Que fais Azure Bastion ?",
+        "type": "choix_multiple",
+        "options": [
+            "Fournit des services de traduction d'adresse réseau (NAT)",
+            "Fournit une connectivité de bureau à distance sécurisée et transparente aux machines virtuelles Azure.",
+            "Fournit un filtrage du trafic qui peut être appliqué à des interfaces réseau spécifiques sur un réseau virtuel."
+        ],
+        "reponse_correcte": "Fournit une connectivité de bureau à distance sécurisée et transparente aux machines virtuelles Azure."
+    },
+    {
+        "texte": "Que fais Azure Firewall ?",
+        "type": "choix_multiple",
+        "options": [
+            "Fournit des services de traduction d'adresse réseau (NAT)",
+            "Fournit une connectivité de bureau à distance sécurisée et transparente aux machines virtuelles Azure.",
+            "Fournit un filtrage du trafic qui peut être appliqué à des interfaces réseau spécifiques sur un réseau virtuel."
+        ],
+        "reponse_correcte": "Fournit des services de traduction d'adresse réseau (NAT)"
+    },
+    {
+        "texte": "Que fais Network Security group (NSG) ?",
+        "type": "choix_multiple",
+        "options": [
+            "Fournit des services de traduction d'adresse réseau (NAT)",
+            "Fournit une connectivité de bureau à distance sécurisée et transparente aux machines virtuelles Azure.",
+            "Fournit un filtrage du trafic qui peut être appliqué à des interfaces réseau spécifiques sur un réseau virtuel."
+        ],
+        "reponse_correcte": "Fournit un filtrage du trafic qui peut être appliqué à des interfaces réseau spécifiques sur un réseau virtuel."
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ___ est une solution native du cloud pour la gestion des informations et des événements de sécurité (SIEM) ainsi que pour l'orchestration automatisée de la réponse à la sécurité (SOAR), utilisée pour fournir une solution unique pour la détection d'alertes, la visibilité des menaces, la recherche proactive et la réponse aux menaces.",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Advisor",
+            "Azure Bastion",
+            "Azure Monitor",
+            "Azur Sentinel"
+        ],
+        "reponse_correcte": "Azur Sentinel"
+    },
+    {
+        "texte": "Azure Defender peut détecter les vulnérabilités et les menaces pour le stockage Azure.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "La gestion de la posture de sécurité dans le cloud (CSPM) est disponible pour les abonnements Azure.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Le Centre de sécurité Azure peut évaluer la sécurité des charges de travail déployées sur Azure ou sur site.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Tu peux utiliser ___ dans le Centre de sécurité Microsoft 365 pour voir une agrégation d'alertes liées à la même attaque.",
+        "type": "choix_multiple",
+        "options": [
+            "report",
+            "incidents",
+            "hunting",
+            "attack simulator"
+        ],
+        "reponse_correcte": "incidents"
+    },
+    {
+        "texte": "Les groupes de sécurité réseau (NSG) peuvent refuser le trafic entrant en provenance d'Internet.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Les groupes de sécurité réseau (NSG) peuvent refuser le trafic sortant vers Internet.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Les groupes de sécurité réseau (NSG) peuvent refuser le trafic sortant en fonction de l'adresse IP, du protocole et du port.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Microsoft Intune peut être utilisé pour gérer les appareils Android",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Microsoft Intune peut être utilisé pour provisionner des abonnements Azure",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Microsoft Intune peut être utilisé pour gérer les appareils appartenant à l'organisation.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Vous pouvez créer un bastion Azure par réseau virtuel",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Azure Bastion fournit des connexions utilisateur à l’aide de RDP",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Azure Bastion fournit une connexion sécurisée à une machine virtuelle Azure en utilisant le portail Azure",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Quelle fonctionnalité de Microsoft Defender for Endpoint fournit la première ligne de défense contre les cybermenaces en réduisant la surface d'attaque ?",
+        "type": "choix_multiple",
+        "options": [
+            "remédiation automatisée",
+            "enquête automatisée",
+            "recherche avancée",
+            "protection du réseau"
+        ],
+        "reponse_correcte": "protection du réseau"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Dans Microsoft Sentinel, vous pouvez automatiser les tâches courantes en utilisant ___",
+        "type": "choix_multiple",
+        "options": [
+            "deep investigation tools.",
+            "hunting search-and-query tools",
+            "playbooks",
+            "workbooks"
+        ],
+        "reponse_correcte": "playbooks"
+    },
+    {
+        "texte": "Quels sont les deux types de ressources qui peuvent être protégés à l'aide du Pare-feu Azure ? Chaque bonne réponse présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "Machines virtuelles Azure ",
+            "Utilisateurs Azure Active Directory (AD)",
+            "Boîtes de réception Microsoft Exchange Online",
+            "Réseaux virtuels Azure",
+            "Sites Microsoft SharePoint Online"
+        ],
+        "reponse_correcte": [
+            "Machines virtuelles Azure ",
+            "Réseaux virtuels Azure"
+        ]
+    },
+    {
+        "texte": "Vous envisagez de mettre en œuvre une stratégie de sécurité et de placer plusieurs couches de défense dans une infrastructure réseau. -Quelle méthodologie de sécurité cela représente-t-il ?",
+        "type": "choix_multiple",
+        "options": [
+            "la modélisation des menaces ",
+            "l’identité comme périmètre de sécurité",
+            "la défense en profondeur",
+            "le modèle de responsabilité partagée"
+        ],
+        "reponse_correcte": "la défense en profondeur"
+    },
+    {
+        "texte": "Microsoft Defender for Endpoint peut protéger les appareils Android.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Microsoft Defender for Endpoint peut protéger les machines virtuelles Azure qui exécutent Windows 10.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Microsoft Defender for Endpoint peut protéger les sites en ligne Microsoft SharePoint et les virus de contenu",
+        "type": "vrai_faux",
+        "options": "vrai_faux",
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Que pouvez-vous utiliser pour analyser les pièces jointes d'e-mails et transférer les pièces jointes aux destinataires uniquement si les pièces jointes sont exemptes de logiciels malveillants ?",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Defender for Office 365",
+            "Microsoft Defender Antivirus",
+            "Microsoft Defender for Identity",
+            "Microsoft Defender for Endpoint"
+        ],
+        "reponse_correcte": "Microsoft Defender for Office 365"
+    },
+    {
+        "texte": "Quelle fonctionnalité offre la fonctionnalité étendue de détection et de réponse (XDR) d’Azure Sentinel ?",
+        "type": "choix_multiple",
+        "options": [
+            "intégration avec le centre de conformité Microsoft 365 ",
+            "prise en charge de la recherche des menaces",
+            "intégration avec Microsoft 365 Defender",
+            "prise en charge des Workbooks Azure Monitor"
+        ],
+        "reponse_correcte": "intégration avec Microsoft 365 Defender"
+    },
+    {
+        "texte": "Que pouvez-vous utiliser pour assurer la détection des menaces pour Azure SQL Managed Instance ?",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Secure Score",
+            "application security groups",
+            "Microsoft Defender for Cloud",
+            "Azure Bastion"
+        ],
+        "reponse_correcte": "Microsoft Defender for Cloud"
+    },
+    {
+        "texte": "Le score Microsoft Secure dans le centre de sécurité Microsoft 365 peut fournir des recommandations pour la sécurité des applications Microsoft Cloud.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "À partir du portail Microsoft 365 Defender, vous pouvez voir comment votre score Microsoft Secure se compare à celui d’organisations comme la vôtre.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": true
+    },
+    {
+        "texte": "Le score Microsoft Secure dans le portail Microsoft 365 Defender vous donne des points si vous abordez les actions d'amélioration en utilisant une application ou un logiciel tiers.",
+        "type": "vrai_faux",
+        "options": [
+            "Oui",
+            "Non"
+        ],
+        "reponse_correcte": false
+    },
+    {
+        "texte": "Quelle fonctionnalité Azure Active Directory (Azure AD) pouvez-vous utiliser pour empêcher les appareils gérés par Microsoft Intune d'accéder aux ressources de l'entreprise ?",
+        "type": "choix_multiple",
+        "options": [
+            "network security groups (NSGs)",
+            "Azure AD Privileged Identity Management (PIM)",
+            "conditional policies",
+            "resource locks"
+        ],
+        "reponse_correcte": "conditional policies"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. ____ peut utiliser des politiques d'accès conditionnel pour contrôler les sessions en temps réel.",
+        "type": "choix_multiple",
+        "options": [
+            "Azure active directory (Azure AD) Privileged identity management (PIM)",
+            "Azure Defender",
+            "Microsoft cloud app security"
+        ],
+        "reponse_correcte": "Microsoft cloud app security"
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. La norme Azure DDos Protection peut être utilisée pour protéger ____",
+        "type": "choix_multiple",
+        "options": [
+            "Les applications Azure active directory (Azure ad).",
+            "Utilisateurs d’Azure Active Directory (Azure Ad).",
+            "Groupes de ressources.",
+            "Réseaux virtuels."
+        ],
+        "reponse_correcte": "Réseaux virtuels."
+    },
+    {
+        "texte": "Que devez-vous utiliser dans le portail Microsoft 365 Defender pour afficher les tendances de sécurité et suivre l'état de protection des identités ?",
+        "type": "choix_multiple",
+        "options": [
+            "Simulateur d'attaque",
+            "Reports",
+            "Hunting",
+            "Incidents"
+        ],
+        "reponse_correcte": "Reports"
+    },
+    {
+        "texte": "Vous disposez d'un abonnement Microsoft 365 E3. Vous envisagez d'auditer l'activité des utilisateurs à l'aide du journal d'audit unifié et de l'audit de base. Pendant combien de temps les dossiers d’audit seront-ils conservés ?",
+        "type": "choix_multiple",
+        "options": [
+            "15 jours",
+            "30 jours",
+            "90 jours",
+            "180 jours"
+        ],
+        "reponse_correcte": "90 jours"
+    },
+    {
+        "texte": "À quel type de ressource Azure Bastion peut-il fournir un accès sécurisé ?",
+        "type": "choix_multiple",
+        "options": [
+            "Azure Files",
+            "Azure SQL Managed Instance",
+            "Azure virtual machines",
+            "Azure App Service"
+        ],
+        "reponse_correcte": "Azure virtual machines"
+    },
+    {
+        "texte": "Quelles sont les trois utilisations de Microsoft Cloud App Security ? Chaque bonne réponse présente une solution complète.",
+        "type": "choix_multiple",
+        "options": [
+            "pour découvrir et contrôler l'utilisation du shadow IT",
+            "pour fournir des connexions sécurisées aux machines virtuelles Azure",
+            "pour protéger les informations sensibles hébergées n'importe où dans le cloud",
+            "pour fournir une authentification directe aux applications sur site",
+            "pour empêcher les données fuites vers des applications non conformes et limitation de l'accès aux données réglementées"
+        ],
+        "reponse_correcte": [
+            "pour découvrir et contrôler l'utilisation du shadow IT",
+            "pour protéger les informations sensibles hébergées n'importe où dans le cloud",
+            "pour empêcher les données fuites vers des applications non conformes et limitation de l'accès aux données réglementées"
+        ]
+    },
+    {
+        "texte": "Sélectionnez la réponse qui complète correctement la phrase. Dans le portail Microsoft 365 Defender, un incident est un ensemble de ____ corrélés.",
+        "type": "choix_multiple",
+        "options": [
+            "d'alertes",
+            "d’événements",
+            "de vulnérabilités",
+            "d’actions d’amélioration du score sécurisé Microsoft"
+        ],
+        "reponse_correcte": "d'alertes"
+    },
+    {
+        "texte": "Vous devez vous connecter à une machine virtuelle Azure à l'aide d'Azure Bastion. Que devriez-vous utiliser ?",
+        "type": "choix_multiple",
+        "options": [
+            "PowerShell remoting",
+            "le portail d'Azure",
+            "le client Connexion Bureau à distance",
+            "un client SSH"
+        ],
+        "reponse_correcte": "le portail d'Azure"
+    },
+    {
+        "texte": "Quel service inclut la fonctionnalité de formation par simulation d'attaque ?",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Defender for Cloud Apps",
+            "Microsoft Defender for Identity",
+            "Microsoft Defender for SQL",
+            "Microsoft Defender for Office 365"
+        ],
+        "reponse_correcte": "Microsoft Defender for Office 365"
+    },
+    {
+        "texte": "Quel type d'alerte pouvez-vous gérer depuis le portail Microsoft 365 Defender ?(de quel Microsoft Defender pouvez vous gerer les alertes ?(oui la question est mal formulée))",
+        "type": "choix_multiple",
+        "options": [
+            "Microsoft Defender for Storage",
+            "Microsoft Defender for SQL",
+            "Microsoft Defender for Endpoint",
+            "Microsoft Defender for IoT"
+        ],
+        "reponse_correcte": "Microsoft Defender for Endpoint"
+    },
+    {
+        "texte": "Quelle fonctionnalité est fournie par Microsoft Entra ID ?",
+        "type": "choix_multiple",
+        "options": [
+            "authentification unique (SSO) pour les utilisateurs",
+            "défense en profondeur",
+            "chiffrement des données au repos",
+            "chiffrement des données en transit"
+        ],
+        "reponse_correcte": "authentification unique (SSO) pour les utilisateurs"
+    },
+    {
+        "texte": "Quel type d’identité devez-vous utiliser pour autoriser les machines virtuelles Azure à accéder au service Stockage Azure sans avoir à gérer les changements de mot de passe manuellement ?",
+        "type": "choix_multiple",
+        "options": [
+            "utilisateur",
+            "device",
+            "principal du service",
+            "identité managée"
+        ],
+        "reponse_correcte": "identité managée"
+    },
+    {
+        "texte": "Quel modèle de sécurité suppose que tout est un réseau ouvert et non approuvé ?",
+        "type": "choix_multiple",
+        "options": [
+            "responsabilité partagée",
+            "défense en profondeur",
+            "Confiance Zéro",
+            "Conformité aux normes PCI DSS (Payment Card Industry Data Security Standards)"
+        ],
+        "reponse_correcte": "Confiance Zéro"
+    }
+]
